@@ -9,5 +9,6 @@ public class Step {
     @Given("User navigates to Gmail page")
     public void login() {
         driver.get("https://www.gmail.com");
+        driver.close();
     }
 }
